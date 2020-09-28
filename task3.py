@@ -17,3 +17,18 @@
 # "2" : The number is 100 or a number up to 1000 
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
+
+number = input("Enter a number")
+a = float(number) >= 1000
+b = float(number) >= 100
+c = float(number) >= 10
+d = float(number) >= 0
+
+if a:
+    print("3")
+elif b:
+    print("2")
+elif c:
+    print("1")
+elif d:
+    print("0")
