@@ -11,3 +11,11 @@
 # Outputs:
 # "the number is even"
 # "the number is odd"
+
+number = input("Enter an interger")
+even = int(number) % 2 == 0
+
+if even:
+    print("the number is even")
+else:
+    print("the number is odd")
