@@ -12,7 +12,7 @@
 # "the number is not an integer"
 
 number = input("Enter a number")
-integer = float(number) % 1 == 0
+integer = float(number)%1 == 0
 
 if integer:
     print("the number is an integer")
