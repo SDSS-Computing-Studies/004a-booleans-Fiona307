@@ -12,9 +12,9 @@
 # "the number is not an integer"
 
 number = input("Enter a number")
-interger = float(number) == number
+integer = float(number) % 1 == 0
 
-if interger:
-    print("the number is an interger")
+if integer:
+    print("the number is an integer")
 else:
     print("the number is not an integer")
