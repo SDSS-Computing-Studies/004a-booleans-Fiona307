@@ -13,7 +13,7 @@
 # "the number is odd"
 
 number = input("Enter an integer")
-even = int(number) % 2 == 0
+even = int(number)%2 == 0
 
 if even:
     print("the number is even")
