@@ -124,7 +124,7 @@
       "name": "Problem 4b",
       "setup": "",
       "run": "python3 problem4.py",
-      "input": "13\r\n12\r\n9.2",
+      "input": "18\r\n12\r\n9.2",
       "output": "that is an obtuse triangle",
       "comparison": "included",
       "timeout": 1,
