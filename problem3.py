@@ -14,5 +14,3 @@ else:
     password = input("Enter your password")
     if password == "12345password":
         print("Access granted")
-    else:
-        print("invalid user")
