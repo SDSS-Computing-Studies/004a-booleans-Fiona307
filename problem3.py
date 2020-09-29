@@ -10,7 +10,7 @@
 username = input("Enter a username")
 if username != "admin":
     print("invalid user")
-elif username == "admin":
+else:
     password = input("Enter your password")
     if password == "12345password":
         print("Access granted")
