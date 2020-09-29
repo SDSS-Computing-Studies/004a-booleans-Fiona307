@@ -18,7 +18,7 @@ import math
 a = input ("Enter one side of a triangle")
 b = input("Enter another side of the triangle")
 c = input("Enter the third side of the triangle")
-if a > b:
+if a >= b:
     if c >= a:
         hypotenuse = math.sqrt(float(a)**2 + float(b)**2)
         if float(hypotenuse) - float(c) <= 0.02*float(c):
@@ -27,3 +27,27 @@ if a > b:
             print("that is an obtuse triangle")
         else:
             print("that is an acute triangle")
+    else:
+        hypotenuse = math.sqrt(float(c)**2 + float(b)**2)
+        if float(hypotenuse) - float(a) <= 0.02*float(a):
+            print("that is a right triangle")
+        elif float(hypotenuse) - float(a) < 0:
+            print("that is an obtuse triangle")
+        else:
+            print("that is an acute triangle")
+elif b >= c:
+    hypotenuse = math.sqrt(float(a)**2 + float(c)**2)
+    if float(hypotenuse) - float(b) <= 0.02*float(b):
+        print("that is a right triangle")
+    elif float(hypotenuse) - float(b) < 0:
+        print("that is an obtuse triangle")
+    else:
+        print("that is an acute triangle")
+else:
+    hypotenuse = math.sqrt(float(a)**2 + float(b)**2)
+    if float(hypotenuse) - float(c) <= 0.02*float(c):
+        print("that is a right triangle")
+    elif float(hypotenuse) - float(c) < 0:
+        print("that is an obtuse triangle")
+    else:
+        print("that is an acute triangle")
