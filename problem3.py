@@ -8,7 +8,7 @@
 # 1 marks
 
 username = input("Enter a username")
-if username != "admin":
+if username != "Admin":
     print("invalid user")
 else:
     password = input("Enter your password")
