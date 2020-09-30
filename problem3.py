@@ -7,10 +7,10 @@
 # then display the message "Access granted"
 # 1 marks
 
-username = input("Enter a username")
+username = input("Enter a username").strip()
 if username != "admin":
     print("invalid user")
 else:
-    password = input("Enter your password")
+    password = input("Enter your password").strip()
     if password == "12345password":
         print("Access granted")
