@@ -104,14 +104,14 @@
       "name": "Problem 3",
       "setup": "",
       "run": "python3 problem3.py",
-      "input": "admin\r\n12345password",
+      "input": "admin\r\n12345password\r\n",
       "output": "Access granted",
       "comparison": "included",
       "timeout": 1,
       "points": 1
     },
     {
-      "name": "Problem 4",
+      "name": "Problem 4a",
       "setup": "",
       "run": "python3 problem4.py",
       "input": "3\r\n4\r\n5.001",
