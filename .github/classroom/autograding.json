@@ -105,7 +105,7 @@
       "setup": "",
       "run": "python3 problem3.py",
       "input": "admin\r\n12345password\r\n",
-      "output": "Access granted",
+      "output": "",
       "comparison": "included",
       "timeout": 1,
       "points": 1
